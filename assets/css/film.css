@@ -29,6 +29,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+div { text-align: center; }
+ul { display: inline-block; text-align: left; }
+
 body {
 	line-height: 1;
 }
@@ -2046,12 +2049,6 @@ input, select, textarea {
 		}
 
 		.icon.major {
-			-moz-transform: rotate(-45deg);
-			-webkit-transform: rotate(-45deg);
-			-ms-transform: rotate(-45deg);
-			transform: rotate(-45deg);
-			border-radius: 3px;
-			border: solid 2px #fff;
 			display: inline-block;
 			font-size: 1.35em;
 			height: calc(3em + 2px);
@@ -2061,10 +2058,6 @@ input, select, textarea {
 		}
 
 			.icon.major:before {
-				-moz-transform: rotate(45deg);
-				-webkit-transform: rotate(45deg);
-				-ms-transform: rotate(45deg);
-				transform: rotate(45deg);
 				display: inline-block;
 				font-size: 1.5em;
 			}
