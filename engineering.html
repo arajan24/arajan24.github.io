@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Engineering - Adithya Rajan</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/engineering.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+				<header id="header">
+					<h1><a href="index.html">Adithya Rajan</a></h1>
+					<nav id="nav">
+						<ul>
+							<li class="special">
+								<a href="#menu" class="menuToggle"><span>Menu</span></a>
+								<div id="menu">
+									<ul>
+										<li><a href="index.html">Home</a></li>
+										<li><a href="film.html">Film</a></li>
+										<li><a href="photography.html">Photography</a></li>
+										<li><a href="music.html">Music</a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</nav>
+				</header>
+
+
+				<!-- Main -->
+					<article id="main">
+						<header>
+							<h2>Engineering</h2>
+							<p>Signal Processing and Audio Engineering</p>
+						</header>
+						<section class="wrapper style5">
+							<div class="inner">
+
+								<h2>Engineering Projects</h2>
+								<p> A large part of my engineering education has been focused on Signal Processing and Audio Engineering.
+                                    Combining music and engineering has been truly interesting and a perfect blend of my interests. 
+                                    These projects include embedded digital signal processing applications and electroacoustic/algorithmic compositions. 
+                                    Please check out a few of my engineering projects below. 
+                                </p>
+
+                                <h4><i>Pandemic!</i>: Data Sonification Composition</h4>
+								<p> <i>Pandemic!</i> was designed as an innovative way of showcasing the rate of spread of the COVID-19 disease. 
+                                    This is an algorithmic composition that uses the SuperCollider environment to sonify the confirmed cases data of 
+                                    the United States, Brazil, China, Italy, Iran, and India. These countries are represented 
+                                    by the notes D, E, C, A, G, F respectively. The amplitudes of the tones are proportional to the number 
+                                    of cases, as specified by the following formula:
+                                </p>
+
+                                <pre><code>decibelLevel = (((numCases/1158040) * 42) - 45)</code></pre>
+
+								<p> Granular synthesis was also used to modify the tones to add a sense of chaos to the composition. 
+                                    The durations of the grains are changed exponentially based on the number of confirmed cases, based on the following formula:</p>
+                                
+                                <pre><code>duration = ((3**(1/numCases)-1)/(3-1))*(3-0.01)+0.01)</code></pre> 
+
+                                <p> The SuperCollider code used in the composition of this piece can be found <a href="https://github.com/arajan24/COVID-19-Data-Sonification">here</a>.
+                                    While algorithmic composition is the basis of the whole piece, there is also an artistic element to the composition. 
+                                    An explanation of the electroacoustic composition techniques that were used and the artistic goals of the piece can be found at the 
+                                    <a href="music.html">Music Page</a>. Please listen to the full composition below!
+                                </p>
+									<figure>
+										<figcaption><i>Pandemic!</i>:</figcaption>
+										<audio
+											controls
+											src="audio/COVID-19 Data Sonification.wav">
+												Your browser does not support the
+												<code>audio</code> element.
+										</audio>
+									</figure>
+								</p>
+                                
+                                
+                                
+								<h4>Self Harmonizing Android App</h4>
+								<p>This project was my final project for Embedded Digital Signal Processing (ECE 420) 
+                                    and was inspired by my love for A Cappella. As a large part of A Cappella music is 
+                                    building chords, this application makes it easy to write harmonies into new arrangements. </p>
+                                <p>
+                                    The project is an Android application that generates a tone that harmonizes with the user as they sing into 
+                                    a microphone as a real-time audio input. We utilized a modified autocorrelation method using clipping to 
+                                    recognize the frequency of the user’s voice and the Time-Domain Pitch Synchronous Overlap-Add 
+                                    (TD-PSOLA) algorithm to output shifted frequency in real time. The use also has multiple options 
+                                    for the number of harmonies to be outputted and the size of the interval between harmonies.
+                                </p>
+                                <p>The code for the project can be found <a href="https://github.com/soosiey/Self-Harmonizer">here</a>. Please check out a short demo video of the app in action!</p>
+								<div class="video-responsive">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Z-bPjB58NTE" frameborder="0" 
+                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</div>
+	
+							</div>
+						</section>
+					</article>
+
+				<!-- Footer -->
+					<footer id="footer" class="wrapper style2">
+						<ul class="icons">
+							<li><a href="https://www.youtube.com/channel/UCL4F3C1R81LDM_Aqsf35Wkg" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
+							<li><a href="https://www.facebook.com/maharajan24" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/maharajan98/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="mailto:adithyarajan24@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href="files/AdithyaRajanResume3.pdf" class="icon solid fa-file-pdf"><span class="label">Resume</span></a></li>
+							<li><a href="https://www.linkedin.com/in/adithyarajan24/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/arajan24" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Adithya Rajan</li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
