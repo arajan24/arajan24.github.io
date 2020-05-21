@@ -46,7 +46,7 @@ footer, header, hgroup, menu, nav, section {
 
 .podcast-responsive{
 	overflow:hidden;
-	padding-bottom:20%;
+	padding-bottom:15%;
 	position:relative;
 	height:0;
 }
