@@ -3412,7 +3412,6 @@ input, select, textarea {
 			position: absolute;
 			right: 0;
 			top: 0;
-			vertical-align: middle;
 			width: 7em;
 		}
 
@@ -3996,7 +3995,7 @@ input, select, textarea {
 	}
 
 	body.is-mobile.landing #footer {
-		background-color: #2e3842;
+		background-color: #2e3842; }
 
 /* Page Specific Banners */
 .page-film #main > header { background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/filmmaking1.jpeg"); }
@@ -4014,4 +4013,3 @@ input, select, textarea {
 body.is-mobile #main > header {
 	background-attachment: scroll;
 }
-	}
