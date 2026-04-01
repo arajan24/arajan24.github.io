@@ -2893,8 +2893,8 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 select option {
-					color: #ffffff;
-					background: #490F15;
+					color: #2E3842;
+					background: #f4f4f4;
 				}
 
 			.wrapper.style1 input[type="checkbox"] + label,
@@ -3166,7 +3166,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style5 {
-			background-color: #ffffff;
+			background-color: #f4f4f4;
 			color: #4E4852;
 		}
 
@@ -3220,7 +3220,7 @@ input, select, textarea {
 
 				.wrapper.style5 select option {
 					color: #2E3842;
-					background: #ffffff;
+					background: #f4f4f4;
 				}
 
 			.wrapper.style5 input[type="checkbox"] + label,
