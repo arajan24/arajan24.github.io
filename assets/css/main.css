@@ -4023,6 +4023,7 @@ input, select, textarea {
 
 /* Page Specific Banners */
 .page-film #main > header { background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/filmmaking1.jpeg"); }
+.page-rajapart #main > header { background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/rajapart-poster.jpg"); }
 .page-pioneers #main > header { background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/pioneers-poster.jpg"); }
 .page-durasa #main > header { background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/durasa-banner.jpg"); }
 .page-glass #main > header { background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/the-glass-banner.jpg"); }
