@@ -52,14 +52,14 @@
 									<p>This video is password protected. Please enter the password to view.</p>
                                     <p>Password: rajapart</p>
 
-									<form id="password-form" onsubmit="return false;">
+									<form id="password-form">
 										<div class="row gtr-uniform">
 											<div class="col-6 col-12-xsmall">
 												<input type="password" id="video-pwd" placeholder="Password" />
 											</div>
 											<div class="col-12">
 												<ul class="actions">
-													<li><button type="button" id="unlock-btn" class="button primary small">Unlock Film</button></li>
+													<li><button type="submit" id="unlock-btn" class="button primary small">Unlock Film</button></li>
 												</ul>
 											</div>
 										</div>
@@ -104,7 +104,8 @@
 		<!-- Unlock Script -->
 			<script>
 				$(document).ready(function() {
-					$('#unlock-btn').on('click', function() {
+					$('#password-form').on('submit', function(e) {
+						e.preventDefault();
 						if ($('#video-pwd').val() === 'rajapart') {
 							$('#password-wrapper').hide();
 							$('#video-wrapper').show();
